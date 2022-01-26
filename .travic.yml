@@ -1,0 +1,8 @@
+before_install:
+  - bundle install
+
+install:
+  # Run link checks reports for Danger
+  - ../gradlew runChecksForDanger
+  # Run Danger
+  - bundle exec danger
