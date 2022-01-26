@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">explore</string>
+    <string name="increment_counter">Increment Count</string>
+    <string name="clicks">Clicks: %d</string>
 </resources>
